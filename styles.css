@@ -6,10 +6,12 @@
   box-sizing: border-box;
   font-family: "Noto Sans", sans-serif;
 }
+
 body {
   background-color: #000;
   overflow-x: hidden;
 }
+
 main {
   height: 100vh;
   position: relative;
@@ -17,6 +19,7 @@ main {
   display: flex;
   flex-direction: column;
 }
+
 main::before {
   content: "";
   width: 100vw;
@@ -31,28 +34,33 @@ main::before {
   overflow: hidden;
   background: url(asset/main-bg.jpg);
 }
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 130px;
 }
+
 .logo img {
   width: 150px;
 }
+
 .sperator {
   width: 100vw;
   height: 7px;
   background: rgb(47, 47, 47);
   margin: auto;
-  
+
   overflow: hidden;
 }
+
 .nav-btn {
   display: flex;
   align-items: center;
   gap: 23px;
 }
+
 #lang-dropdown {
   background: transparent;
   color: white;
@@ -62,9 +70,11 @@ nav {
   border-radius: 10%;
   height: 38px;
 }
+
 #lang-dropdown:active:focus {
   outline: 2px solid white;
 }
+
 #lang-dropdown option {
   color: black;
 }
@@ -79,9 +89,12 @@ nav {
   height: 38px;
   font-size: 16px;
 }
-#sign-in:hover,#submitbtn:hover {
+
+#sign-in:hover,
+#submitbtn:hover {
   background-color: rgb(165, 5, 13);
 }
+
 .content {
   display: flex;
   align-items: center;
@@ -91,21 +104,25 @@ nav {
   width: 100%;
   gap: 23px;
 }
+
 .content h1 {
   font-size: 50px;
   color: white;
   font-weight: 700;
 }
+
 .content p {
   font-size: 20px;
   color: white;
 }
-form{
+
+form {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 7px;
 }
+
 #email {
   width: 400px;
   height: 60px;
@@ -116,8 +133,9 @@ form{
   border-radius: 6px;
   padding: 4px;
 }
-#submitbtn{
-    width: 220px;
+
+#submitbtn {
+  width: 220px;
   height: 60px;
   font-size: 21px;
   color: white;
@@ -127,7 +145,8 @@ form{
   border: none;
   font-weight: 600;
 }
-.first{
+
+.first {
   height: 80vh;
   width: 80vw;
   margin: auto;
@@ -136,26 +155,31 @@ form{
   justify-content: center;
   align-items: center;
 }
-.first-content{
+
+.first-content {
   display: flex;
- 
+
   justify-content: center;
   flex-direction: column;
   gap: 6px;
+}
 
+.first-content h1 {
+  font-size: 50px;
+  font-weight: 900;
 }
-.first-content h1{
-font-size: 50px;
-font-weight: 900;
-}
-.first-content p{
-font-size: 22px;
 
+.first-content p {
+  font-size: 22px;
 }
-.first-asset{
+
+.first-asset {
   position: relative;
 }
-.first-asset video{
+.first-asset img {
+  width: 100%;
+}
+.first-asset video {
   position: absolute;
   top: 20%;
   left: 13%;
@@ -164,7 +188,7 @@ font-size: 22px;
   width: 73%;
 }
 
-.second{
+.second {
   height: 80vh;
   width: 80vw;
   margin: auto;
@@ -173,25 +197,31 @@ font-size: 22px;
   justify-content: center;
   align-items: center;
 }
-.second-content{
+
+.second-content {
   display: flex;
- 
+
   justify-content: center;
   flex-direction: column;
   gap: 6px;
 }
-.second-content h1{
-font-size: 50px;
-font-weight: 900;
-}
-.second-content p{
-font-size: 22px;
 
+.second-content h1 {
+  font-size: 50px;
+  font-weight: 900;
 }
-.second-asset{
+
+.second-content p {
+  font-size: 22px;
+}
+.second-asset img {
+  width: 100%;
+}
+.second-asset {
   position: relative;
 }
-.second-asset-banner{
+
+.second-asset-banner {
   position: absolute;
   bottom: 8%;
   left: 22%;
@@ -203,28 +233,29 @@ font-size: 22px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding:0 10px 0 10px ;
-  
+  padding: 0 10px 0 10px;
 }
-.sab-left{
+
+.sab-left {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   gap: 10px;
 }
-.second-asset-banner img{
+
+.second-asset-banner img {
   width: 18%;
 }
-.second-asset-banner span :nth-child(1){
+
+.second-asset-banner span :nth-child(1) {
   font-weight: 600;
-
 }
-.second-asset-banner span :nth-child(2){
+
+.second-asset-banner span :nth-child(2) {
   color: dodgerblue;
-
 }
 
-.third{
+.third {
   height: 80vh;
   width: 80vw;
   margin: auto;
@@ -233,27 +264,31 @@ font-size: 22px;
   justify-content: center;
   align-items: center;
 }
-.third-content{
+
+.third-content {
   display: flex;
- 
+
   justify-content: center;
   flex-direction: column;
   gap: 6px;
+}
 
+.third-content h1 {
+  font-size: 50px;
+  font-weight: 900;
 }
-.third-content h1{
-font-size: 50px;
-font-weight: 900;
-}
-.third-content p{
-font-size: 22px;
 
+.third-content p {
+  font-size: 22px;
 }
-.third-asset{
+.third-asset img {
+  width: 100%;
+}
+.third-asset {
   position: relative;
-
 }
-.third-asset video{
+
+.third-asset video {
   position: absolute;
   top: 10%;
   left: 16%;
@@ -261,7 +296,7 @@ font-size: 22px;
   width: 66%;
 }
 
-.fourth{
+.fourth {
   height: 80vh;
   width: 80vw;
   margin: auto;
@@ -270,23 +305,123 @@ font-size: 22px;
   justify-content: center;
   align-items: center;
 }
-.fourth-content{
+
+.fourth-content {
   display: flex;
- 
+
   justify-content: center;
   flex-direction: column;
   gap: 6px;
 }
-.fourth-content h1{
-font-size: 50px;
-font-weight: 900;
-}
-.fourth-content p{
-font-size: 22px;
 
+.fourth-content h1 {
+  font-size: 50px;
+  font-weight: 900;
 }
-.fourth-asset{
+
+.fourth-content p {
+  font-size: 22px;
+}
+.fourth-asset img {
+  width: 100%;
+}
+.fourth-asset {
   position: relative;
 }
 
+@media only screen and (max-width: 1200px) {
+  .first,
+  .second,
+  .third,
+  .fourth {
+    width: 95vw;
+    margin: 10px;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .second,
+  .fourth {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  h1 {
+    font-size: 40px !important;
+  }
+  p {
+    font-size: 17px !important;
+  }
+}
+@media only screen and (max-width: 770px) {
+  h1 {
+    font-size: 30px !important;
+  }
+  p {
+    font-size: 17px !important;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .logo img {
+    width: 100px;
+  }
+  .nav-btn {
+    gap: 9px;
+  }
+  nav {
+    padding: 20px 30px;
+  }
+  form {
+    flex-direction: column;
+  }
+  .first-asset img,
+  video {
+    width: 70%;
+  }
+  .first-asset video {
+    position: absolute;
+    top: 20%;
+    left: 24%;
+    z-index: -1002;
+    overflow: hidden;
+    width: 54%;
+  }
+  .second-asset img,
+  video {
+    width: 70%;
+  }
+  .second-asset-banner img {
+    width: 14%;
+  }
 
+  .third-asset img,
+  video {
+    width: 70%;
+  }
+  .third-asset video {
+    position: absolute;
+    top: 10%;
+    left: 27%;
+    z-index: -10;
+    width: 45%;
+  }
+  .fourth-asset img,
+  video {
+    width: 70%;
+  }
+  .content {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .second-asset-banner span p {
+    font-size: 12px !important;
+  }
+  #email {
+    width: 366px;
+  }
+}
