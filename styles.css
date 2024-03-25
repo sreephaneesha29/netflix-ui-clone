@@ -377,40 +377,36 @@ form {
   form {
     flex-direction: column;
   }
-  .first-asset img,
-  video {
-    width: 70%;
-  }
+ 
   .first-asset video {
     position: absolute;
     top: 20%;
-    left: 24%;
+    left: 13%;
     z-index: -1002;
     overflow: hidden;
-    width: 54%;
+    width: 73%;
   }
-  .second-asset img,
-  video {
-    width: 70%;
+  .second-asset img {
+    width: 100%;
   }
   .second-asset-banner img {
-    width: 14%;
+    width: 20%;
   }
 
   .third-asset img,
   video {
-    width: 70%;
+    width: 100%;
   }
   .third-asset video {
     position: absolute;
     top: 10%;
-    left: 27%;
+    left: 19%;
     z-index: -10;
-    width: 45%;
+    width: 61%;
   }
   .fourth-asset img,
   video {
-    width: 70%;
+    width: 100%;
   }
   .content {
     text-align: center;
@@ -424,4 +420,7 @@ form {
   #email {
     width: 366px;
   }
+  nav {
+    padding: 20px 5px;
+}
 }
