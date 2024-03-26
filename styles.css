@@ -423,4 +423,10 @@ form {
   nav {
     padding: 20px 5px;
 }
+.first,
+  .second,
+  .third,
+  .fourth {
+    height: 60vh;
+  }
 }
